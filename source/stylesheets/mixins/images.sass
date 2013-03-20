@@ -1,0 +1,13 @@
+= svg-background($image-path, $fallback-format: ".png", $background-size: image-width( "#{$image-path}#{$fallback-format}") )
+	background-image: image-url("#{$image-path}#{$fallback-format}")
+
+	html.svg &
+		+background-size($background-size)
+		background-image: image-url("#{$image-path}.svg")
+
+= hidpi-image($image-path, $format: ".png", $size: "#{image-width('#{$image-path}#{$format}')} #{image-height('#{$image-path}#{$format}')}" )
+	+background-size($size)
+	background-image: image-url("#{$image-path}#{$format}")
+	
+	@media screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min--moz-device-pixel-ratio: 1.5), screen and (-o-device-pixel-ratio: 3/2),  screen and (min-device-pixel-ratio: 1.5)
+		background-image: image-url("#{$image-path}_@2X#{$format}")

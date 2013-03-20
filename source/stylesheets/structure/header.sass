@@ -1,0 +1,23 @@
+#header
+	@extend %wrapper
+	+trailing-border(1px, 1)
+	text-align: center
+	border-color: $grey_6
+
+#logo
+	display: block
+	text-decoration: none
+
+	span
+		+hidpi-image("logo")
+		+leader(1)
+		+transition-property("all")
+		+transition-duration(1s)
+		display: block
+		padding-top: image-height('logo.png')
+		background-repeat: no-repeat
+		background-position: center top
+
+	&:hover
+		span
+			+rotate(360deg)

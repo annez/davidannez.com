@@ -1,0 +1,30 @@
+@font-face
+	font-family: 'BrandonText-Regular'
+	src: font-url('26415B_0_0.eot')
+
++font-face("BrandonText-Regular", inline-font-files("26415B_0_0.ttf", truetype, "26415B_0_0.woff", woff))
+
+
+@font-face
+	font-family: 'icons'
+	src: font-url('icons.eot')
+
++font-face("icons", inline-font-files("icons.ttf", truetype, "icons.woff", woff))
+
+%brandon-text
+	font-family: "BrandonText-Regular", "Helvetica", 'Arial', sans-serif
+	font-weight: normal
+
+%icons
+	font-family: 'icons'
+
+%data-icon
+	font-family: 'icons'
+	font-weight: normal
+	font-style: normal
+	display: inline-block
+	text-decoration: inherit
+	padding-right: 5px
+	
+%resume
+	content: "\e0bf"

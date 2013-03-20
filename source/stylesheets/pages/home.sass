@@ -1,0 +1,19 @@
+#main
+	+leader(1)
+	text-align: center
+
+.resume
+	+heading(2)
+	+border-radius(3px)
+	display: inline-block
+	background-color: $color_1
+	color: white
+	text-decoration: none
+	padding: rhythm(0.5)
+	&:before
+		@extend %data-icon
+		@extend %resume
+
+	&:hover
+		background-color: mix($color_1, black, 70%)
+		color: white
