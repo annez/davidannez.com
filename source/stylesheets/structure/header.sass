@@ -1,10 +1,11 @@
 #header
 	@extend %wrapper
-	+trailing-border(1px, 1)
+	
 	text-align: center
 	border-color: $grey_6
 
 #logo
+	+columns(8)
 	display: block
 	text-decoration: none
 
@@ -21,3 +22,7 @@
 	&:hover
 		span
 			+rotate(360deg)
+
+
+.tagline
+	+columns(8)

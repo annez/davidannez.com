@@ -4,7 +4,7 @@
 	width: (($col-count * $col-width) + ( ($col-count + 1) * $gutter-width)) / $em
 	position: relative
 	margin: 0 auto
-	// padding: 0 $gutter-width
+	padding: 0 ($gutter-width/ $em)
 
 %column
 	float: left
@@ -16,5 +16,3 @@
 	width: col-width($n)
 	@extend %column
 
-	@if $first
-		margin-left: 0
