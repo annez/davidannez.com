@@ -1,6 +1,6 @@
 #header
 	@extend %wrapper
-	
+	+padding-leader(3)
 	text-align: center
 	border-color: $grey_6
 
@@ -23,6 +23,10 @@
 		span
 			+rotate(180deg)
 
+	h1
+		+trailer(0)
+
 
 .tagline
 	+columns(8)
+	+trailer(1)
