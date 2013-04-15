@@ -2,7 +2,7 @@
 # Compass
 ###
 activate :livereload
-
+activate :directory_indexes
 # Susy grids in Compass
 # First: gem install susy
 # require 'susy'
@@ -11,6 +11,8 @@ activate :livereload
 compass_config do |config|
   config.output_style = :compressed
 end
+
+
 
 ###
 # Page options, layouts, aliases and proxies
@@ -62,6 +64,13 @@ set :js_dir, 'javascripts'
 set :fonts_dir, 'fonts'
 
 set :images_dir, 'images'
+
+activate :blog do |blog|
+  blog.layout = "blog"
+end
+
+set :markdown, :layout_engine => :haml
+set :markdown_engine, :redcarpet
 
 # Build-specific configuration
 configure :build do

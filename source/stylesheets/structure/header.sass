@@ -4,6 +4,9 @@
 	text-align: center
 	border-color: $grey_6
 
+	#blog &
+		+padding-leader(1)
+
 #logo
 	+columns(8)
 	display: block
@@ -25,6 +28,11 @@
 
 	h1
 		+trailer(0)
+
+	#blog &
+		span
+			padding-top: image-height('logo.png') / 2
+			+background-size((image-width('logo.png') / 2))
 
 
 .tagline

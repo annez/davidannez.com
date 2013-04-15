@@ -15,24 +15,10 @@
 		= javascript_include_tag "vendor/modernizr"
 		= stylesheet_link_tag "site"
 
-	%body
+	%body#blog
 		%header#header
-			#logo{:href => "/"}
+			%a#logo{:href => "/"}
 				%span
-				%h1 David Annez
-			.tagline 
-				Developer at
-				%a{:href => "http://tictocfamily.com"}tictoc
-				&amp; founder of
-				%a{:href => "http://frogbeats.com"} frogbeats
-
-			.social_links
-				%a{:href => "https://twitter.com/davidannez", :title => "Twitter"} T
-				%a{:href => "https://github.com/annez", :title => "github"} g
-				%a{:href => "http://linkedin.com/in/davidannez", :title => "LinkedIN"} L
-				%a{:href => "mailto:david.annez@gmail.com", :title => "Email"} m
-				%a{:href => "http://last.fm/user/ZimmerX", :title => "LastFM"} l
-
 
 
 		#main{:role => :main}= yield
