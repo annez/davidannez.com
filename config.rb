@@ -51,7 +51,7 @@ end
   activate :deploy do |deploy|
     deploy.method = :rsync
     deploy.user = "admin"
-    deploy.host = "customs.frogbeats.com"
+    deploy.host = "davidannez.com"
     deploy.path = "/var/www/davidannez.com/public"
     deploy.after_build = true
   end
