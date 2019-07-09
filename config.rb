@@ -48,13 +48,7 @@ end
 #   def some_helper
 #     "Helping"
 #   end
-  activate :deploy do |deploy|
-    deploy.method = :rsync
-    deploy.user = "admin"
-    deploy.host = "davidannez.com"
-    deploy.path = "/var/www/davidannez.com/public"
-    deploy.after_build = true
-  end
+
 # end
 
 set :css_dir, 'stylesheets'
