@@ -23,9 +23,21 @@ export default class App extends Component {
           </a>.
         </p>
         <ul>
-          <li><a href='https://linkedin.com/in/davidannez' rel='noopener noreferer'>LinkedIn</a></li>
-          <li><a href='https://twitter.com/davidannez' rel='noopener noreferer'>Twitter</a></li>
-          <li><a href='https://github.com/annez' rel='noopener noreferer'>Github</a></li>
+          <li>
+            <a href='https://linkedin.com/in/davidannez' rel='noopener noreferer' target='_blank'>
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a href='https://twitter.com/davidannez' rel='noopener noreferer' target='_blank'>
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a href='https://github.com/annez' rel='noopener noreferer' target='_blank'>
+              Github
+            </a>
+          </li>
         </ul>
 			</div>
 		);
