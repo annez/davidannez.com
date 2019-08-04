@@ -11,8 +11,8 @@ export default class App extends Component {
           Head of Product Engineering @&nbsp;
           <a href='https://www.uswitch.com' rel='noopener noreferer' target='_blank'>uSwitch.com</a>
         </h2>
-        <p>Leader, business owner and generalist engineer.</p>
         <p>
+          Leader, business owner and generalist engineer.<br />
           Founder of{' '}
           <a href='https://shop.frogbeats.com' rel='noopener noreferer' target='_blank'>
             Frogbeats
@@ -20,7 +20,7 @@ export default class App extends Component {
           and{' '}
           <a href='https://customs.frogbeats.com' rel='noopener noreferer' target='_blank'>
             Frogbeats Customs
-          </a>
+          </a>.
         </p>
         <ul>
           <li><a href='https://linkedin.com/davidannez'>LinkedIn</a></li>

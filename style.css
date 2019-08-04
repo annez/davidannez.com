@@ -1,14 +1,89 @@
+/* Older browsers */
+html { font-size: 16px; }
+
+/* Modern browsers only need this one */
+
+@media screen and (min-width: 25em) {
+  html {
+    font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (1280 - 400) );
+  }
+}
+
+/* Safari <8 and IE <11 */
+@media screen and (min-width: 25em) {
+  html {
+    font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (1280 - 400) );
+  }
+}
+
+@media screen and (min-width: 50em) {
+  html {
+    font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (1280 - 400) );
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
 html, body {
-	font: 16px/1.21 'Space Mono', monospace;
+	font-family: 'Space Mono', monospace;
+  line-height: 1.5rem;
 	font-weight: 400;
+  background-color: #0C0F0A;
+  color: #FFFFFF;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
-h2 {
-  color: #555;
+body {
+  padding: 1.5rem;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 500px;
-  padding: 0 15px;
+a {
+  color: #FBFF12;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+}
+
+a::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: -0.25em;
+  right: -0.25em;
+  background-color: #FBFF12;
+  transform-origin: bottom center;
+  transform: scaleY(0.1);
+  transition: all 0.1s ease-in-out;
+}
+
+a:hover {
+  color: #FFF;
+}
+
+a:hover::before {
+  transform: scaleY(1);
+  background-color: hsla(61, 100%, 54%, 0.75);
+}
+
+p {
+  line-height: 1.35rem;
+  margin-bottom: 1.35rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  color: #41EAD4;
 }
