@@ -1,0 +1,16 @@
+{
+  "name": "David Annez - Engineering leader",
+  "short_name": "davidannez",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0C0F0A",
+  "theme_color": "#41EAD4",
+  "icons": [
+    {
+      "src": "/assets/icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
