@@ -1,8 +1,14 @@
 html, body {
-	font: 14px/1.21 'Helvetica Neue', arial, sans-serif;
+	font: 16px/1.21 'Space Mono', monospace;
 	font-weight: 400;
 }
 
-h1 {
-	text-align: center;
+h2 {
+  color: #555;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 0 15px;
 }
