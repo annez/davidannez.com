@@ -8,7 +8,7 @@ export default class App extends Component {
 			<div class='container'>
 				<h1>David Annez</h1>
         <h2>
-          Head of Product Engineering @&nbsp;
+          Head of Product Engineering @{' '}
           <a href='https://www.uswitch.com' rel='noopener noreferer' target='_blank'>uSwitch.com</a>
         </h2>
         <p>
@@ -23,9 +23,9 @@ export default class App extends Component {
           </a>.
         </p>
         <ul>
-          <li><a href='https://linkedin.com/davidannez'>LinkedIn</a></li>
-          <li><a href='https://twitter.com/davidannez'>Twitter</a></li>
-          <li><a href='https://github.com/davidannez'>Github</a></li>
+          <li><a href='https://linkedin.com/in/davidannez' rel='noopener noreferer'>LinkedIn</a></li>
+          <li><a href='https://twitter.com/davidannez' rel='noopener noreferer'>Twitter</a></li>
+          <li><a href='https://github.com/annez' rel='noopener noreferer'>Github</a></li>
         </ul>
 			</div>
 		);
