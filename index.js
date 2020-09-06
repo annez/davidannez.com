@@ -8,8 +8,8 @@ export default class App extends Component {
 			<div class='container'>
 				<h1>David Annez</h1>
         <h2>
-          Head of Product Engineering @{' '}
-          <a href='https://www.uswitch.com' rel='noopener noreferer' target='_blank'>uSwitch.com</a>
+          Head of Engineering @{' '}
+          <a href='https://www.loveholidays.com' rel='noopener noreferer' target='_blank'>loveholidays</a>
         </h2>
         <p>
           Leader, business owner and generalist engineer.<br />
@@ -22,6 +22,10 @@ export default class App extends Component {
             Frogbeats Customs
           </a>.
         </p>
+        <h3>
+          Previously, Head of Product Engineering @{' '}
+          <a href='https://www.uswitch.com' rel='noopener noreferer' target='_blank'>Uswitch</a>
+        </h3>
         <ul>
           <li>
             <a href='https://linkedin.com/in/davidannez' rel='noopener noreferer' target='_blank'>
