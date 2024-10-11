@@ -1,0 +1,25 @@
+---
+const name = "David Annez";
+const role = "Generalist Engineer & Product Leader";
+const description = `
+  I’m a generalist engineer and product leader focused on business outcomes over technology. I’ve been leading teams of engineers, PMs, and designers for over 11 years while still maintaining hands-on work.
+`;
+const links = [
+  { href: "https://github.com/annez", label: "Github" },
+  { href: "http://davidannez.com", label: "Portfolio" },
+  { href: "https://linkedin.com/in/davidannez", label: "LinkedIn" },
+];
+---
+
+<div class="p-4">
+  <h1 class="text-xl font-bold">{name}</h1>
+  <h2 class="text-md text-gray-500">{role}</h2>
+  <p class="mt-4">{description}</p>
+  <ul class="mt-4 space-y-2">
+    {links.map(link => (
+      <li>
+        <a href={link.href} class="text-blue-500 hover:underline">{link.label}</a>
+      </li>
+    ))}
+  </ul>
+</div>

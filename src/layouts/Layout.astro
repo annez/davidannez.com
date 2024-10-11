@@ -1,4 +1,44 @@
-/* Older browsers */
+---
+import '../styles/normalize.css';
+
+interface Props {
+	title: string;
+	description: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content={description} />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<link href="//fonts.googleapis.com" rel="dns-prefetch">
+		<link href="https://fonts.googleapis.com" rel="preconnect" crossorigin>
+		<link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700&display=swap" rel="stylesheet">
+		<title>{title}</title>
+	</head>
+	<body>
+		<slot />
+	</body>
+</html>
+<style is:global>
+	:root {
+		--accent: 136, 58, 234;
+		--accent-light: 224, 204, 250;
+		--accent-dark: 49, 10, 101;
+		--accent-gradient: linear-gradient(
+			45deg,
+			rgb(var(--accent)),
+			rgb(var(--accent-light)) 30%,
+			white 60%
+		);
+	}
+	/* Older browsers */
 html { font-size: 16px; }
 
 /* Modern browsers only need this one */
@@ -38,7 +78,6 @@ html, body {
 body {
   padding: 1.5rem;
 }
-
 a {
   color: #FBFF12;
   position: relative;
@@ -89,3 +128,4 @@ h2 {
 h3 {
   color: rgba(255,255,255,0.3);
 }
+</style>
