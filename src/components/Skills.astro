@@ -1,0 +1,34 @@
+---
+const skills = [
+  "Product & Tech Leadership",
+  "Scaling Teams and Infrastructure",
+  "Stakeholder Management",
+  "Polyglot Engineer",
+];
+
+const knowledge = [
+  "Clojure, Node, Go, Ruby, Python, Elixir",
+  "AWS, GCP, Kubernetes, Linkerd",
+  "Postgres, MySQL, BigQuery, Redshift",
+  "Nginx, Envoy, Apache",
+];
+
+const languages = ["Fluent in Spanish, Catalan, and French"];
+---
+
+<div class="p-4">
+  <h2 class="text-lg font-bold">Core Skills</h2>
+  <ul class="mt-2 space-y-2">
+    {skills.map(skill => <li>{skill}</li>)}
+  </ul>
+
+  <h2 class="text-lg font-bold mt-4">Knowledge</h2>
+  <ul class="mt-2 space-y-2">
+    {knowledge.map(item => <li>{item}</li>)}
+  </ul>
+
+  <h2 class="text-lg font-bold mt-4">Languages</h2>
+  <ul class="mt-2 space-y-2">
+    {languages.map(lang => <li>{lang}</li>)}
+  </ul>
+</div>

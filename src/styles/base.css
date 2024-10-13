@@ -1,0 +1,27 @@
+/* The integration's default injected base.css file */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .experience {
+      strong {
+        @apply block mb-4 text-xs text-gray-400;
+      }
+      ul {
+        @apply list-disc text-sm ml-4;
+      }
+
+      li {
+        @apply mb-2;
+      }
+      
+      hr {
+        @apply w-48 h-1 block mx-auto my-4 border-0 rounded md:my-10 bg-gray-700;
+      }
+
+      h3 {
+        @apply text-white mb-2;
+      }
+    }
+  }

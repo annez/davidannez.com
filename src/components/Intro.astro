@@ -1,0 +1,25 @@
+---
+const name = "David Annez";
+const role = "Engineering & Product Leader";
+const description = `
+  I’m a technology leader focused on business outcomes over technology. I’ve been leading teams of engineers, PMs, and designers for over 12 years whilst still keeping up-to-date with the latest technologies and being hands on when needed.
+`;
+const links = [
+  { href: "https://github.com/annez", label: "Github" },
+  { href: "http://davidannez.com", label: "Portfolio" },
+  { href: "https://linkedin.com/in/davidannez", label: "LinkedIn" },
+];
+---
+
+<div class="p-4">
+  <h1 class="text-xl font-bold mt-0">{name}</h1>
+  <h2 class="text-md text-gray-500">{role}</h2>
+  <p class="mt-4">{description}</p>
+  <ul class="mt-4 space-y-2">
+    {links.map(link => (
+      <li>
+        <a href={link.href} class="text-blue-500 hover:underline">{link.label}</a>
+      </li>
+    ))}
+  </ul>
+</div>
