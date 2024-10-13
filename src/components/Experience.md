@@ -35,6 +35,7 @@ Joined to help business go from start-up to scale-up. Looked after 5 teams of en
 - Grew team from 16 to 60 during and after COVID and restructured around products
 - Implemented career matrices (product, design, tech) and growth plans for everyone
 - Led rebuild of search platform, increased CVR by ~17% across landing pages
+- Implemented [core tracking strategy](https://www.rudderstack.com/blog/loveholidays-is-taking-ownership-of-its-data/) leading to 20% faster daily reports and faster analytics for the business 
 - Shifted to product + design first thinking with continuous discovery and user research team
 - Deploys increased by 50% through generating safety around technical changes
 - Spoke at conferences about Edge compute and performance first culture [[1](https://vimeo.com/480566484), [2](https://www.fastly.com/video/fastly-travel-technology-webinar)]
@@ -108,3 +109,5 @@ Started up a small limited company selling high quality earphones to students an
 - [Fastly Experimentation](https://www.fastly.com/customers/loveholidays-video/)
 - [HTTP3 implementation](https://tech.loveholidays.com/making-loveholidays-18-faster-with-http-3-1860879528a7)
 - [Fastly Altitude conference](https://www.fastly.com/de/altitude/2020/traveling-light-simpler-architecture-edge-serverless-position-to-win/)
+- [Tracking and personalisation with rudderstack](
+https://www.rudderstack.com/blog/loveholidays-is-taking-ownership-of-its-data/)
