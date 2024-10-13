@@ -1,4 +1,5 @@
-### VP Product - loveholidays
+### VP Product
+#### loveholidays
 **March 2023 ~ August 2024**
 Moved into a product role spanning all teams as well as product strategy, looking after a platform org of 140 by the end of it.
 
@@ -12,7 +13,8 @@ Moved into a product role spanning all teams as well as product strategy, lookin
 
 ---
 
-### Director of Engineering and Product - loveholidays
+### Director of Engineering and Product
+#### loveholidays
 **November 2022 ~ March 2023**
 Scaled and delivered successful product changes to become the 3rd largest OTA in the UK ([achieved in 2023](https://www.travolution.com/news/travel-sectors/tour-operators/loveholidays-boosts-atol-numbers-as-it-targets-expansion/)). Moving from scale-up to scale-out and bringing more levels of senior-ity to a 90+ tech team. Responsible for the overall platform strategy including product.
 
@@ -24,7 +26,8 @@ Scaled and delivered successful product changes to become the 3rd largest OTA in
 
 ---
 
-### Head of Engineering - loveholidays
+### Head of Engineering
+#### loveholidays
 **September 2019 ~ November 2022**
 
 Joined to help business go from start-up to scale-up. Looked after 5 teams of engineers, designers and product managers working in cross-functional agile teams.
@@ -43,7 +46,8 @@ Joined to help business go from start-up to scale-up. Looked after 5 teams of en
 
 ---
 
-### Head of Engineering - uSwitch/RVU/ZPG
+### Head of Engineering
+#### uSwitch/RVU/ZPG
 **July 2018 - September 2019**
 
 Acquired by SilverLake for £2.2bn, moved into a strategic role across 3 businesses. Spent 70% of time managing and setting direction of engineers across 6 product teams (grew to 8). Worked with CTO and CPO to set out product and tech direction.
@@ -57,7 +61,8 @@ Acquired by SilverLake for £2.2bn, moved into a strategic role across 3 busines
 
 ---
 
-### Head of Frontend Engineering - uSwitch / ZPG
+### Head of Frontend Engineering 
+#### uSwitch / ZPG
 **July 2016 - July 2018**
 
 Leading and mentoring both the design and product engineering functions within the business and also product/tech within the customer engagement team.
