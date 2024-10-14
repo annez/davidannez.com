@@ -76,7 +76,8 @@ Leading and mentoring both the design and product engineering functions within t
 
 ---
 
-### Lead Software Engineer - uSwitch Ltd
+### Lead Software Engineer
+#### uSwitch Ltd
 **July 2013 - July 2016**
 
 Reponsible for managing the brand, other front-end engineers and delivering a consist- ent experience across uSwitch. Open sourced ustyle.guide
@@ -87,7 +88,8 @@ Reponsible for managing the brand, other front-end engineers and delivering a co
 
 --- 
 
-### Founder/Director - Frogbeats LTD
+### Founder/Director
+#### Frogbeats LTD
 **2011 - 2015**
 
 Started up a small limited company selling high quality earphones to students and audiophiles. Developed the website; the branding and worked on the financial aspects and the general management of the company as founder and director.
