@@ -21,7 +21,11 @@
       }
 
       h3 {
-        @apply text-white mb-2;
+        @apply text-black dark:text-white mb-2;
+      }
+
+      h4 {
+        @apply text-gray-600;
       }
     }
   }
