@@ -5,8 +5,8 @@
 
 @layer components {
     .experience {
-      strong {
-        @apply block mb-4 text-xs text-gray-400;
+      em {
+        @apply block mb-4 text-xs text-gray-400 font-bold not-italic;
       }
       ul {
         @apply list-disc text-sm ml-4;
