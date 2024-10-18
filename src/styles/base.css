@@ -4,28 +4,30 @@
 @tailwind utilities;
 
 @layer components {
-    .experience {
-      em {
-        @apply block mb-4 text-xs text-gray-400 font-bold not-italic;
-      }
-      ul {
-        @apply list-disc text-sm ml-4;
-      }
+  li {
+    @apply mb-2;
+  }
 
-      li {
-        @apply mb-2;
-      }
-      
-      hr {
-        @apply w-48 h-1 block mx-auto my-6 border-0 rounded md:my-10 bg-gray-200 dark:bg-gray-700;
-      }
+  .experience {
+    em {
+      @apply block mb-4 text-xs text-gray-400 font-bold not-italic;
+    }
+    ul {
+      @apply list-disc text-sm ml-4;
+    }
 
-      h3 {
-        @apply text-black dark:text-white mb-2;
-      }
+    
+    
+    hr {
+      @apply w-48 h-1 block mx-auto my-6 border-0 rounded md:my-10 bg-gray-200 dark:bg-gray-700;
+    }
 
-      h4 {
-        @apply text-gray-600 dark:text-gray-200;
-      }
+    h3 {
+      @apply text-black dark:text-white mb-2;
+    }
+
+    h4 {
+      @apply text-gray-600 dark:text-gray-200;
     }
   }
+}

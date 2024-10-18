@@ -88,17 +88,3 @@ Started up a small limited company selling high quality earphones to students an
 #### 2006 ~ Freelance web developer
 
 ---
-
-<div class="no-print">
-
-## On the internet:
-- [Redmonk interview](https://www.youtube.com/watch?v=9RpeNnc74vE)
-- [Ecommerce Expo](https://www.ecommerceexpo.co.uk/speakers/david-annez)
-- [Sanity AI create](https://www.youtube.com/watch?v=a1y3xxtYD3I&t=799s)
-- [Fastly Experimentation](https://www.fastly.com/customers/loveholidays-video/)
-- [HTTP3 implementation](https://tech.loveholidays.com/making-loveholidays-18-faster-with-http-3-1860879528a7)
-- [Fastly Altitude conference](https://www.fastly.com/de/altitude/2020/traveling-light-simpler-architecture-edge-serverless-position-to-win/)
-- [Tracking and personalisation with rudderstack](
-https://www.rudderstack.com/blog/loveholidays-is-taking-ownership-of-its-data/)
-
-</div>
